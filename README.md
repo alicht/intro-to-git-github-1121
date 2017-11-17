@@ -16,11 +16,22 @@ commit.
 -   WDI Fundamentals
 
 ## Why Git
+Git is a form of Version Control. 
+Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. (Ex: backing up your iPhone before you get it repaired)
 
-Version control! As developers our code is our livelihood so it's important
+## But... who cares why would we need this?
+Using version control is useful because it allows you to easily rollback to a previous version of your application, saving you a ton of extra work and time.
+There are a lot of advantages to version control. 
+-  It's a great way to keep a backup of your work
+-  it facilitates collaboration
+-  it gives you the freedom to experiment and try new things without messing up the code base.
+
+As developers our code is our livelihood so it's important
 that we safely store our work... frequently.  Not only that we want to track our
 changes as we make them.  If we make a feature that ends up breaking the rest of
 our app we want to be able to go back to a point when our app was last working.
+
+## Local vs Remote
 
 ## Code Along: Making a Local Repository
 
