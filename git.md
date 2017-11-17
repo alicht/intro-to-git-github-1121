@@ -86,7 +86,7 @@ happen?
 
 
 
-## Code Along: Staging and Commiting
+## Code Along: Staging and Commiting-  Game of Gits
 
 Using `git add <"name_of_file">` we are going to add our story to the staging
 area.
