@@ -80,6 +80,12 @@ happen?
 
 1.  Type `git status` again. Did anything happen this time?
 
+
+
+![Alt Text](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
+
+
+
 ## Code Along: Staging and Commiting
 
 Using `git add <"name_of_file">` we are going to add our story to the staging
