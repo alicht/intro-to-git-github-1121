@@ -42,6 +42,23 @@ A local version control system stores all of the information on your computer, l
 
 Let's initalize a local repository.
 
+-1 make a directory `mkdir game-of-thrones` and lets then enter it `cd game-of-thrones`
+
+We have an (empty) directory, now what we want to do is initialize it `git init`
+This will initialize a new git repository in our code. (.git explanation?)
+
+-  now lets put git to use and create some items!
+let's use the touch command to create a README.me -> README.md.
+
+- we can use the ls command now and we'll see our README.
+- we can check the status of this `git status` and we'll see our README is not committed
+- let's `git add <name-of-file>`
+- we can check the status of this `git status`
+- then we'll add a committ message `git commit -m"our first commit"`
+
+-Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
+
+
 1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
 
 1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
