@@ -33,6 +33,10 @@ our app we want to be able to go back to a point when our app was last working.
 
 ## Local vs Remote
 
+
+![Alt Text](https://media.giphy.com/media/fb04se26vMZZm/giphy.gif)
+
+
 ## Code Along: Making a Local Repository
 
 Let's initalize a local repository.
