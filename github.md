@@ -56,9 +56,6 @@ write the beggining of another character's story.  For instance:
 
 Push the changes you made.
 
-Also push your `dream-story` branch.  We pushed our `master` branch with the
-command `git push origin master`.  Can you figure out how to push our
-`dream-story` branch?
 
 ## Demo: Adding to Your Story
 
@@ -114,16 +111,6 @@ branch.
 
 7.  The primary and the contributor will go back and forth adding to the story.
 
-## Editing on GitHub
-
-Hey! See that little pencil button on the top of a page on GitHub!? That looks
-to change text and will help us, right?!
-![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
-Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically
-never want to edit ON GitHub. You always want to make changes locally and push
- them.
-The reason we never want to do that is if you edit in the cloud, our local repo
-and GitHub repo become out of sync and it breaks convention.
 
 ## Additional Resources
 
