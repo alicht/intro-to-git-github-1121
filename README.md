@@ -32,6 +32,7 @@ changes as we make them.  If we make a feature that ends up breaking the rest of
 our app we want to be able to go back to a point when our app was last working.
 
 ## Local vs Remote
+A local version control system stores all of the information on your computer, locally. This system is great while you work on a project by yourself. However, it becomes trickier when you attempt to collaborate.
 
 
 ![Alt Text](https://media.giphy.com/media/fb04se26vMZZm/giphy.gif)
@@ -45,7 +46,7 @@ Let's initalize a local repository.
 
 1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
 
-1.  Opening the file with Atom copy in the following lines:
+1.  Opening the file with Sublime/ Atom and copy in the following lines:
 
   ```bash
   House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
