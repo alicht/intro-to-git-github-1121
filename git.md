@@ -78,11 +78,9 @@ happen?
 
 
 
-![Alt Text](https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif)
 
 
-
-## Code Along: Staging and Commiting-  Game of Gits
+## Code Along: Staging and Commiting-  Mean Gits
 
 Using `git add <"name_of_file">` we are going to add our story to the staging
 area.
