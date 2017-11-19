@@ -31,12 +31,6 @@ that we safely store our work... frequently.  Not only that we want to track our
 changes as we make them.  If we make a feature that ends up breaking the rest of
 our app we want to be able to go back to a point when our app was last working.
 
-## Local vs Remote
-A local version control system stores all of the information on your computer, locally. This system is great while you work on a project by yourself. However, it becomes trickier when you attempt to collaborate.
-
-
-![Alt Text](https://media.giphy.com/media/fb04se26vMZZm/giphy.gif)
-
 
 ## Code Along: Making a Local Repository
 
@@ -45,12 +39,12 @@ A local version control system stores all of the information on your computer, l
 
 Let's initalize a local repository.
 
--1 make a directory `mkdir mean-girl` and lets then enter it `cd mean-girls`
+1.  make a directory `mkdir mean-girl` and lets then enter it `cd mean-girls`
 
 We have an (empty) directory, now what we want to do is initialize it `git init`
 This will initialize a new git repository in our code. (.git explanation?)
 
--  now lets put git to use and create some items!
+1.  now lets put git to use and create some items!
 let's use the touch command to create a README.me -> README.md.
 
 - we can use the ls command now and we'll see our README.
