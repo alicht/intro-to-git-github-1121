@@ -42,7 +42,7 @@ A local version control system stores all of the information on your computer, l
 
 Let's initalize a local repository.
 
--1 make a directory `mkdir game-of-thrones` and lets then enter it `cd game-of-thrones`
+-1 make a directory `mkdir mean-girl` and lets then enter it `cd mean-girls`
 
 We have an (empty) directory, now what we want to do is initialize it `git init`
 This will initialize a new git repository in our code. (.git explanation?)
@@ -59,24 +59,22 @@ let's use the touch command to create a README.me -> README.md.
 -Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
 
 
-1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-game-of-gits`. So if your name is Kyrie, it should be called `kyries-game-of-gits`.
+1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-mean-girls`. So if your name is Regina, it should be called `regina-mean-girls`.
 
-1.  Inside of the `<your-name>s-game-of-gits` directory create a file called `sad-tale.md`.
+1.  Inside of the `<your-name>s-mean-girls` directory create a file called `first-day.md`.
 
 1.  Opening the file with Sublime/ Atom and copy in the following lines:
 
   ```bash
-  House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
-  Winterfell, Warden of the North, Hand of the King, Protector of the Realm,
-  Regent.  He is surely honorable and will lead a long and prosperous life.
+  My name is (your name) and I'm super excited to attend North Shore High School! #sofetch
   ```
 
 1.  Save the file.
 
-1.  Inside of the `<your-name>s-game-of-gits` directory type `git status`. Did anything
+1.  Inside of the `<your-name>s-mean-girls` directory type `git status`. Did anything
 happen?
 
-1.  Again, inside the `<your-name>s-game-of-gits` directory type `git init`.
+1.  Again, inside the `<your-name>s-mean-girls` directory type `git init`.
 
 1.  Type `git status` again. Did anything happen this time?
 
@@ -126,12 +124,11 @@ for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 Together, let's continue our story.
 
-In our `sad-tale.md`, we'll tell the rest of Ned Stark's story.  Paste this in
+In our `first-day.md`, we'll continue our first day observations of North Shore High School.  Paste this in
 below our current description and save:
 
 ```sh
-Ned Stark went to King's landing where he made lots of friends and lived
-happily ever after...  He definitely didn't get axe murdered.
+Janis and Damian seem nice, but not too sure about Regina, Gretchen, and Karen. #plastics
 ```
 
 Now using what we learned earlier stage this change. To figure out the status
@@ -146,7 +143,7 @@ our file.
 
 Unstage the file with `git reset <"filename">`
 
-Delete the last thing we wrote in `sad-tale.md`.
+Delete the last thing we wrote in `mean-girls.md`.
 
 We know that Ned's story doesn't have a happy ending but let's dream big.  We're
 going to create a dream-story branch and write what we would have wanted to
