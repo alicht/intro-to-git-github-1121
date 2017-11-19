@@ -154,6 +154,9 @@ happen.
 
 ## Removing: Now we need to remove files previously added
 
+
+![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
+
 1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
 1.  Type `This is a story... of a man named Neddy... and three
