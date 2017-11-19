@@ -40,6 +40,9 @@ A local version control system stores all of the information on your computer, l
 
 ## Code Along: Making a Local Repository
 
+![Alt Text](https://media.giphy.com/media/3o7aTy3ePwrk5D3bHO/giphy.gif)
+
+
 Let's initalize a local repository.
 
 -1 make a directory `mkdir mean-girl` and lets then enter it `cd mean-girls`
