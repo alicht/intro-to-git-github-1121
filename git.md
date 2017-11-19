@@ -53,6 +53,10 @@ let's use the touch command to create a README.me -> README.md.
 - we can check the status of this `git status`
 - then we'll add a committ message `git commit -m"our first commit"`
 
+### And...
+ ![Alt Text](https://media.giphy.com/media/xT9KVF4zNt70nyNpi8/giphy.gif)
+ 
+
 -Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
 
 ## Code Along 
