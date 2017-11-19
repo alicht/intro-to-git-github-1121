@@ -32,7 +32,7 @@ changes as we make them.  If we make a feature that ends up breaking the rest of
 our app we want to be able to go back to a point when our app was last working.
 
 
-## Code Along: Making a Local Repository
+## Let's Make a Local Repository!
 
 ![Alt Text](https://media.giphy.com/media/3o7aTy3ePwrk5D3bHO/giphy.gif)
 
