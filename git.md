@@ -87,21 +87,18 @@ happen?
 
 
 
-## Code Along: Staging and Commiting-  Mean Gits
+## Staging and Commiting
 
-Using `git add <"name_of_file">` we are going to add our story to the staging
-area.
+There are 3 states that your file can reside in `modified`, 
+`staged`, and `committed`. These states map to the different sections of a Git project.
 
-There are 3 states that your file can reside in `committed`, `modified` and
-`staged`.  These states map to the different sections of a Git project.
-
-A)  Modified means that you have changed the file but have not committed it to
+A)  `modified` means that you have changed the file but have not committed it to
 your database yet.
 
-B)   Staged means that you have marked a modified file in its current version
+B)   `staged` means that you have marked a modified file in its current version
 to go into your next commit snapshot.
 
-C)   Committed means that the data is safely stored in your local database.
+C)   `committed` means that the data is safely stored in your local database.
 
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
