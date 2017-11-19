@@ -55,6 +55,7 @@ let's use the touch command to create a README.me -> README.md.
 
 -Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
 
+## Code Along 
 
 1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-mean-girls`. So if your name is Regina, it should be called `regina-mean-girls`.
 
