@@ -27,7 +27,7 @@
 Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
 to manage our project.
 
-## Remote Repository-  Linking with GitHub
+## Remote Repository-  Introducing GitHub!
 
 
 ![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
