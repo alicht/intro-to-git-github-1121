@@ -99,14 +99,12 @@ to go into your next commit snapshot.
 
 C)   `committed` means that the data is safely stored in your local database.
 
-[Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 When we add a file we are moving it from the working directory to the staging
 area.
 
-![Git Sections](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
+![git-add-commit](https://user-images.githubusercontent.com/6153182/33028677-839cda1e-cde4-11e7-83c5-59adf22958d9.png)
 
-![](assets/track-changes-with-git/git-add-commit.png)
 
 
 # You do
