@@ -22,7 +22,7 @@
 -  pull request
 -  git fetch upstream?
 -  merge
--  
+-  branching?
 
 Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
 to manage our project.
