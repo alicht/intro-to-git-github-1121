@@ -2,6 +2,8 @@
 
 # Git and Github
 
+-  helpful link https://guides.github.com/activities/hello-world/ (branching etc)
+
 ## Objectives
 
 -   Manage changes in a project over time.
