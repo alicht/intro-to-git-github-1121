@@ -111,13 +111,13 @@ area.
 
 ## Lab: Crafting A Commit- Add Regina George
 ![Alt Text](https://media.giphy.com/media/6BQeMAeLHCIhi/giphy.gif)
+
 (she's not very nice :/)
 
 Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
 your commit with the rest of the class.
 
--   [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 -   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
 
 Now that we've made our first commit, let's see what happens when we type `git
@@ -126,19 +126,6 @@ commits, but since we just have one, that's all we see. Feel free to play around
 with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
 for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
-## Staging: And He Lived Happily After
-
-Together, let's continue our story.
-
-In our `first-day.md`, we'll continue our first day observations of North Shore High School.  Paste this in
-below our current description and save:
-
-```sh
-Janis and Damian seem nice, but not too sure about Regina, Gretchen, and Karen. #plastics
-```
-
-Now using what we learned earlier stage this change. To figure out the status
-of your files you can type `git status` in the terminal at any time.
 
 **Remember: Staging isn't committing**
 
@@ -146,11 +133,11 @@ of your files you can type `git status` in the terminal at any time.
 
 ![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
 
-We have to delete Regina 
+Uh oh... we have to delete Regina 
 
 Unstage the file with `git reset <"filename">`
 
-Delete the last thing we wrote in `mean-girls.md`.
+OR Delete the last thing we wrote in `mean-girls.md`.
 
 Let's go back to our Mean Girls directory
 
@@ -174,7 +161,6 @@ What's the difference? What is actually happening with the `rm` command?
 
 ## Git Best Practices
 
--   NEVER use `git add .`
 -   ALWAYS add files explicitly. If you have multiple files, use full paths to
     refer to each. Example: `git add foo/bar.md baz/qux.js`
 -   ALWAYS use a commit message `git commit -m "an example commit message"`
