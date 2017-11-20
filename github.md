@@ -27,7 +27,10 @@
 Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
 to manage our project.
 
-## Demo: Linking with GitHub
+## Remote Repository-  Linking with GitHub
+
+
+![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
 
 So we have a local repository, watch as I create a GitHub repository. Why
 GitHub? So we can backup our code online. It also provides us with a useful
@@ -35,7 +38,6 @@ graphical interface and useful collaboration features.
 
 GitHub is just another git repository in the cloud. If you work by yourself, you don't need remotes. However, we want to work with others! Thus let's talk about remotes.
 
-![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
 
 ## Let's create a remote repository on GitHub
 
@@ -88,7 +90,7 @@ by pulling the changes that we merged.  The command to do this is:
 
 `git pull origin master`
 
-This get the latest copy of our code off of the master branch of our original
+This gets the latest copy of our code off of the master branch of our original
 repository.
 
 ## Remotes
