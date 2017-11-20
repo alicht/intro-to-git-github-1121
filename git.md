@@ -40,14 +40,16 @@ Let's initalize a local repository.
 
 1.  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
 
-We have an (empty) directory, now what we want to do is initialize it `git init`
-This will initialize a new git repository in our code. (.git explanation?)
-
-1.  now lets put git to use and create some items!
+now lets put git to use and create some items!
 let's go to our terminal and use the touch command to create a README.md.
 
 - we can use the ls command now and we'll see our README.
 - we can check the status of this with git status` and we'll see our README is not committed
+
+We have an (empty) directory, now what we want to do is initialize it `git init`
+This will initialize a new git repository in our code. (.git explanation?)
+
+
 - let's `git add <name-of-file>`
 - we can check the status of this `git status`
 - then we'll add a committ message `git commit -m"our first commit"`
