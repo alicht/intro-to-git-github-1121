@@ -106,6 +106,8 @@ area.
 
 ![Git Sections](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
 
+![](assets/track-changes-with-git/git-add-commit.png)
+
 
 # You do
 
