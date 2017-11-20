@@ -50,6 +50,9 @@ GitHub is just another git repository in the cloud. If you work by yourself, you
 Now create your own GitHub repository and `push` your master branch.
 
 ## Lets connect our local repo and our remote repo
+
+![mg1](https://user-images.githubusercontent.com/6153182/33035113-09f033dc-cdf8-11e7-8f7a-24fda5b84a2c.png)
+
 -  since we already have a repo let's follow step 2
 -  go to terminal 
 -  lets add the URL we copied to 
