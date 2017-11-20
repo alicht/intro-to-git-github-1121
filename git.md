@@ -38,7 +38,7 @@ There are a lot of advantages to version control.
 
 Let's initalize a local repository.
 
-1.  make a directory `mkdir mean-girl` and lets then enter it `cd mean-girls`
+1.  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
 
 We have an (empty) directory, now what we want to do is initialize it `git init`
 This will initialize a new git repository in our code. (.git explanation?)
