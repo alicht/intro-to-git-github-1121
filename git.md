@@ -158,21 +158,6 @@ we'll go to our terminal and remove it rm -rf Regina.txt
 
 
 
-## Removing: Now we need to remove files previously added
-
-
-
-1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
-
-1.  Type `This is a story... of a man named Neddy... and three
-very badass really awesome girls`.
-
-1.  Save the file.
-
-1.  `git add the-stark-bunch.md`.
-
-1.  `git rm -f the-stark-bunch.md`.
-
 What's the difference? What is actually happening with the `rm` command?
 
 
@@ -192,10 +177,9 @@ What's the difference? What is actually happening with the `rm` command?
 -   NEVER use `git add .`
 -   ALWAYS add files explicitly. If you have multiple files, use full paths to
     refer to each. Example: `git add foo/bar.md baz/qux.js`
--   NEVER use `git commit -m "an example commit message"`
+-   ALWAYS use a commit message `git commit -m "an example commit message"`
 -   ALWAYS use `git status` before any other command
 -   NO commit is too small
--   NO commit message is too long
 -   NEVER nest repositories
 
 ## Additional Resources
