@@ -40,7 +40,7 @@ Let's initalize a local repository.
 
 1.  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
 
-now lets put git to use and create some items!
+Before we put git to use let's create some items.
 let's go to our terminal and use the touch command to create a README.md.
 
 - we can use the ls command now and we'll see our README.
@@ -174,10 +174,4 @@ What's the difference? What is actually happening with the `rm` command?
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
 -   [Visualizing Git Commands](https://onlywei.github.io/explain-git-with-d3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
 
