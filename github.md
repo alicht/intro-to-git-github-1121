@@ -32,7 +32,7 @@ GitHub is just another git repository in the cloud. If you work by yourself, you
 ## Let's create a remote repository on GitHub
 
 -  let's go to GitHub, click the heavy_plus_sign in the menubar and select New repository. 
--  let's Enter a name for your repository in the Repository name field. let's enter the same name we did for our local version "tyrion-game-of-gite" 
+-  let's Enter a name for your repository in the Repository name field. let's enter the same name we did for our local version `mean-girls` 
 -  After creating the repo, you should see a "Quick setup" page. Click the "Copy to clipboard" symbol next to the repo URL (pictured) to copy the URL. (We'll use this in the next section.)
 
 Now create your own GitHub repository and `push` your master branch.
@@ -41,8 +41,8 @@ Now create your own GitHub repository and `push` your master branch.
 -  since we already have a repo let's follow step 2
 -  go to terminal 
 -  lets add the URL we copied to 
--  git remote add
--  git remote push
+-  `git remote add`
+-  `git remote push`
 
 ### Connected!
 
