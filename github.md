@@ -82,6 +82,8 @@ creating a `pull request`.
 
 # You do
 
+![Alt Text](https://media.giphy.com/media/g3Ny7NJId3ICA/giphy.gif)
+
 ## Lab: Adding to Other's Stories
 
 Working with a partner follow my example and take turns adding to one another's
