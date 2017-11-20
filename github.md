@@ -46,21 +46,26 @@ Now create your own GitHub repository and `push` your master branch.
 
 ### Connected!
 
-## Lab: More Pushing
+# We Do
 
-The last time we saw Ned Stark we had just written his fate.  Below his story
-write the beggining of another character's story.  For instance:
+## Lab: Lets add another Mean Girl... and this time we can push it to GitHub!
 
-> Joffrey Baratheon was the one to do Ned in, but his story was only about to
-> being, and let me assure you he will ___DEFINITELY NOT DIE!___
+![Alt Text](https://media.giphy.com/media/xT9KVuBS9UBLUciObu/giphy.gif)
 
-Push the changes you made.
+The last time we saw the Mean Girls, Regina was kicked out. Let's now add Cady Heron to take place: 
+
+create a cady-heron.txt file and add "Hey I'm Cady, I'm in charge now" #boss 
+
+
+Push this to GitHub.
 
 
 ## Demo: Adding to Your Story
 
 Watch as I `fork` and `clone` one of your repos and make an addition by
 creating a `pull request`.
+
+# You do
 
 ## Lab: Adding to Other's Stories
 
