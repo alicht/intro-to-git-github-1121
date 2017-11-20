@@ -58,6 +58,27 @@ let's go to our terminal and use the touch command to create a README.md.
 
 -Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
 
+
+## Staging and Commiting
+
+There are 3 states that your file can reside in `modified`, 
+`staged`, and `committed`. These states map to the different sections of a Git project.
+
+A)  `modified` means that you have changed the file but have not committed it to
+your database yet.
+
+B)   `staged` means that you have marked a modified file in its current version
+to go into your next commit snapshot.
+
+C)   `committed` means that the data is safely stored in your local database.
+
+
+When we add a file we are moving it from the working directory to the staging
+area.
+
+![git-add-commit](https://user-images.githubusercontent.com/6153182/33028677-839cda1e-cde4-11e7-83c5-59adf22958d9.png)
+
+
 ## Code Along 
 ![Alt Text](https://media.giphy.com/media/u35ybV7uLQs7e/giphy.gif)
 
@@ -81,29 +102,6 @@ happen?
 1.  Again, inside the `<your-name>s-mean-girls` directory type `git init`.
 
 1.  Type `git status` again. Did anything happen this time?
-
-
-
-
-
-## Staging and Commiting
-
-There are 3 states that your file can reside in `modified`, 
-`staged`, and `committed`. These states map to the different sections of a Git project.
-
-A)  `modified` means that you have changed the file but have not committed it to
-your database yet.
-
-B)   `staged` means that you have marked a modified file in its current version
-to go into your next commit snapshot.
-
-C)   `committed` means that the data is safely stored in your local database.
-
-
-When we add a file we are moving it from the working directory to the staging
-area.
-
-![git-add-commit](https://user-images.githubusercontent.com/6153182/33028677-839cda1e-cde4-11e7-83c5-59adf22958d9.png)
 
 
 
