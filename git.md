@@ -5,11 +5,10 @@
 ## Objectives
 
 -   Initialize a git repository in order to track changes.
--   Create a new branch to isolate your changes.
+-   Commit new and changed files to a git repository.
 -   Place new or changed files into the staging area to prepare them for a
 commit.
 -   Remove files from the staging area before a commit.
--   Commit new and changed files to a git repository.
 
 ## Prerequisites
 
@@ -17,7 +16,11 @@ commit.
 
 ## Why Git
 Git is a form of Version Control. 
-Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. (Ex: backing up your iPhone before you get it repaired)
+Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. (Ex: backing up your iPhone before you get it repaired).
+As developers our code is our livelihood so it's important
+that we safely store our work... frequently.  Not only that we want to track our
+changes as we make them.  If we make a feature that ends up breaking the rest of
+our app we want to be able to go back to a point when our app was last working.
 
 ## But... who cares why would we need this?
 Using version control is useful because it allows you to easily rollback to a previous version of your application, saving you a ton of extra work and time.
@@ -26,10 +29,6 @@ There are a lot of advantages to version control.
 -  it facilitates collaboration
 -  it gives you the freedom to experiment and try new things without messing up the code base.
 
-As developers our code is our livelihood so it's important
-that we safely store our work... frequently.  Not only that we want to track our
-changes as we make them.  If we make a feature that ends up breaking the rest of
-our app we want to be able to go back to a point when our app was last working.
 
 
 ## Let's Make a Local Repository!
@@ -45,10 +44,10 @@ We have an (empty) directory, now what we want to do is initialize it `git init`
 This will initialize a new git repository in our code. (.git explanation?)
 
 1.  now lets put git to use and create some items!
-let's use the touch command to create a README.me -> README.md.
+let's go to our terminal and use the touch command to create a README.md.
 
 - we can use the ls command now and we'll see our README.
-- we can check the status of this `git status` and we'll see our README is not committed
+- we can check the status of this with git status` and we'll see our README is not committed
 - let's `git add <name-of-file>`
 - we can check the status of this `git status`
 - then we'll add a committ message `git commit -m"our first commit"`
@@ -66,7 +65,7 @@ let's use the touch command to create a README.me -> README.md.
 
 1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-mean-girls`. So if your name is Regina, it should be called `regina-mean-girls`.
 
-1.  Inside of the `<your-name>s-mean-girls` directory create a file called `first-day.md`.
+1.  Inside of the `<your-name>s-mean-girls` directory create a file called `first-day.txt`.
 
 1.  Opening the file with Sublime/ Atom and copy in the following lines:
 
@@ -108,8 +107,11 @@ area.
 ![Git Sections](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
 
 
+# You do
 
-## Lab: Crafting A Commit
+## Lab: Crafting A Commit- Add Regina George
+![Alt Text](https://media.giphy.com/media/6BQeMAeLHCIhi/giphy.gif)
+(she's not very nice :/)
 
 Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
@@ -140,23 +142,25 @@ of your files you can type `git status` in the terminal at any time.
 
 **Remember: Staging isn't committing**
 
-## Unstaging: Maybe We Jumped the Gun
+## Unstaging: Wait can Regina actually join us? She's wearing sweatpants on a Wed... 
 
-It turns out Ned actually did get axe murdered. So we probably want to unstage
-our file.
+![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
+
+We have to delete Regina 
 
 Unstage the file with `git reset <"filename">`
 
 Delete the last thing we wrote in `mean-girls.md`.
 
-We know that Ned's story doesn't have a happy ending but let's dream big.  We're
-going to create a dream-story branch and write what we would have wanted to
-happen.
+Let's go back to our Mean Girls directory
+
+we'll go to our terminal and remove it rm -rf Regina.txt
+
+
 
 ## Removing: Now we need to remove files previously added
 
 
-![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
 
 1.  Inside of `<your-name>s-game-of-gits` create a file called `the-stark-bunch.md`.
 
