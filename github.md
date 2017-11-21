@@ -78,9 +78,7 @@ Tina Fey is here to teach us about forking, cloning, and pull requests!
 
 ![Alt Text](https://media.giphy.com/media/3o7aTLkyh3yAG6DEuQ/giphy.gif)
 
--  `fork`
--  `clone`
--  `pull request`
+
 
 #### Fork
 
@@ -94,6 +92,10 @@ Tina Fey is here to teach us about forking, cloning, and pull requests!
 
 ![bridgid](https://user-images.githubusercontent.com/6153182/33048688-3098920e-ce2a-11e7-9873-29cc04f36d49.png)
 
+-  `fork`
+-  `clone`
+-  `new branch, tina-fey.txt & "Go home", add/ commit/ push`
+-  `create pull request`
 
 # You do: Adding to Other's Stories
 
