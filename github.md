@@ -2,7 +2,6 @@
 
 # Git and Github
 
--  helpful link https://guides.github.com/activities/hello-world/ (branching etc)
 
 ## Objectives
 
@@ -133,5 +132,7 @@ We're all in this together #narwahls :whale:
 ## Additional Resources
 
 -   [Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
--   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
 -   [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
+-   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+-   [Branching](https://guides.github.com/activities/hello-world/)
+
