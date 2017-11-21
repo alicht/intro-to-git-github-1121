@@ -71,7 +71,7 @@ The last time we saw the Mean Girls, Regina was kicked out. Let's now add Karen 
 Push this to GitHub.
 
 
-#  Add Tina Fey to our story (last Mean Girls reference, I promise :grimacing: )
+#  Add Tina Fey (last Mean Girls reference, I promise :grimacing: )
 Tina Fey is here to teach us about forking, cloning, and pull requests! 
 
 (we have a You Do coming up guys- so pay attention! :)
@@ -98,9 +98,6 @@ Tina Fey is here to teach us about forking, cloning, and pull requests!
 
 # You do: Adding to Other's Stories
 
-![Alt Text](https://media.giphy.com/media/g3Ny7NJId3ICA/giphy.gif)
-
-
 Working with a partner, follow the example we just did and take turns: (Example names: Ruben & Leah)
 -  Ruben should clone Leah's repo & create a new branch in the terminal
 -  on this new branch, add your-name.txt and add your "catchphrase" to the text inside
@@ -121,6 +118,7 @@ by pulling the changes that we merged.  The command to do this is:
 
 This gets the latest copy of our code from the master branch of our original
 repository.
+
 
 # Be the Opposite of "Mean Girls"
 
