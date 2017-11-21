@@ -41,7 +41,9 @@ First, let's create a local repository.
 -  make a directory `mkdir mean-girls` and lets then cd into it `cd mean-girls`
 
 Before we put git to use let's create an item we can track.
-Let's go to our terminal and use the `touch` command to create `opening-scene.txt`.
+Let's go to our terminal and use the `touch` command to create `cady.txt`.
+
+![Alt Text](https://media.giphy.com/media/3o7aTBRgcwex7riR2M/giphy.gif)
 
 - we can use the `ls` command now and we see we have something in our directory.
 - we can check the status of this with git status` and we'll see our README is not committed
