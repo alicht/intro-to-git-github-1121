@@ -6,8 +6,8 @@
 ## Objectives
 
 -   Synchronize local and remote repositories.
--   Fork a remote repository to get your own remote copy.
--   Clone a remote repository to get your own local copy.
+-   Fork a remote repository.
+-   Clone a remote repository.
 -   Collaborate with other developers on the same project.
 -   Create a new branch, pull requests, and merging
 -   Don't be like the characters from "Mean Girls" :no_good:
