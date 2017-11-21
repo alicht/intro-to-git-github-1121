@@ -6,8 +6,7 @@
 
 -   Initialize a git repository in order to track changes.
 -   Commit new and changed files to a git repository.
--   Place new or changed files into the staging area to prepare them for a
-commit.
+-   Place new or changed files into the staging area to prepare them for a commit.
 -   Remove files from the staging area before a commit.
 
 ## Prerequisites
@@ -17,17 +16,18 @@ commit.
 ## Why Git
 Git is a form of Version Control. 
 Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. (Ex: backing up your iPhone before you get it repaired).
+
 As developers our code is our livelihood so it's important
-that we safely store our work... frequently.  Not only that we want to track our
+that we safely and frequently store our work.  Not only that, we want to track our
 changes as we make them.  If we make a feature that ends up breaking the rest of
 our app we want to be able to go back to a point when our app was last working.
 
 ## But... who cares why would we need this?
-Using version control is useful because it allows you to easily rollback to a previous version of your application, saving you a ton of extra work and time.
+Using version control is useful because we can easily rollback to a previous version of our application, saving us a ton of extra work and time.
 There are a lot of advantages to version control. 
--  It's a great way to keep a backup of your work
+-  it's a great way to keep a backup of your work
 -  it facilitates collaboration
--  it gives you the freedom to experiment and try new things without messing up the code base.
+-  it gives us the freedom to experiment and try new things without messing up the code base.
 
 
 
@@ -38,12 +38,12 @@ There are a lot of advantages to version control.
 
 Let's initalize a local repository.
 
-1.  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
+-  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
 
 Before we put git to use let's create some items.
-let's go to our terminal and use the touch command to create a README.md.
+let's go to our terminal and use the `touch` command to create `opening-scene.txt`.
 
-- we can use the ls command now and we'll see our README.
+- we can use the `ls` command now and we see we have something in our directory.
 - we can check the status of this with git status` and we'll see our README is not committed
 
 We have an (empty) directory, now what we want to do is initialize it `git init`
@@ -52,13 +52,13 @@ This will initialize a new git repository in our code. (.git explanation?)
 
 - let's `git add <name-of-file>`
 - we can check the status of this `git status`
-- then we'll add a committ message `git commit -m"our first commit"`
+- then we'll add a commit message `git commit -m"our first commit"`
 
-### And...
+## And...
  ![Alt Text](https://media.giphy.com/media/xT9KVF4zNt70nyNpi8/giphy.gif)
  
 
--Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now, we'll see that it is at a "Clean State", that there is nothing to commit and no new changes. 
+Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now we'll see that there is nothing to commit and no new changes. 
 
 
 ## Staging and Commiting
@@ -81,24 +81,24 @@ area.
 ![git-add-commit](https://user-images.githubusercontent.com/6153182/33028677-839cda1e-cde4-11e7-83c5-59adf22958d9.png)
 
 
-## Code Along 
-![Alt Text](https://media.giphy.com/media/u35ybV7uLQs7e/giphy.gif)
+## Code Along: Let's add Gretchen
+![Alt Text](https://media.giphy.com/media/aDub09OOi8e4M/giphy.gif)
 
 
 
-1.  In your training directory, NOT the directory you just cloned, create a subdirectory called `<your-name>s-mean-girls`. So if your name is Regina, it should be called `regina-mean-girls`.
+1.  Create a directory called `mean-girls`. 
 
-1.  Inside of the `<your-name>s-mean-girls` directory create a file called `first-day.txt`.
+1.  Inside of the `mean-girls` directory create a file called `first-day.txt`.
 
-1.  Opening the file with Sublime/ Atom and copy in the following lines:
+1.  Opening the file with Sublime and copy in the following lines:
 
   ```bash
-  My name is (your name) and I'm super excited to attend North Shore High School! #sofetch
+  That is so fetch!  
   ```
 
 1.  Save the file.
 
-1.  Inside of the `<your-name>s-mean-girls` directory type `git status`. Did anything
+1.  Inside of the `mean-girls` directory type `git status`. Did anything
 happen?
 
 1.  Again, inside the `<your-name>s-mean-girls` directory type `git init`.
@@ -109,16 +109,17 @@ happen?
 
 # You do
 
-## Lab: Crafting A Commit- Add Regina George
+## Brief Lab: Add Regina George
 ![Alt Text](https://media.giphy.com/media/6BQeMAeLHCIhi/giphy.gif)
 
 (she's not very nice :/)
 
-Read over the following blog posts and carefully think about what a good commit
-message would be. Take some time to come up with your own. Be ready to share
-your commit with the rest of the class.
+1.  Opening the file with Sublime and copy in the following lines:
 
--   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
+  ```bash
+  Is butter a carb? These sweatpants are all that fits me right now. 
+  ```
+
 
 Now that we've made our first commit, let's see what happens when we type `git
 log`... We see our previous commit! This typically shows all of our previous
@@ -127,7 +128,7 @@ with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
 for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 
-**Remember: Staging isn't committing**
+
 
 ## Unstaging: Wait can Regina actually join us? She's wearing sweatpants on a Wed... 
 
