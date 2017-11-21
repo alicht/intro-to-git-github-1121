@@ -77,8 +77,22 @@ Push this to GitHub.
 
 ## Demo: Adding to Your Story
 
-Watch as I `fork` and `clone` one of your repos and make an addition by
-creating a `pull request`.
+-  `fork`
+-  `clone`
+-  `pull request`
+
+#### Fork
+
+![fork](https://user-images.githubusercontent.com/6153182/33048606-bed6d2c0-ce29-11e7-8f54-bf7cf4560dec.png)
+
+#### Clone
+
+![clone](https://user-images.githubusercontent.com/6153182/33048675-24e2bc50-ce2a-11e7-804f-634a7790107c.png)
+
+#### Pull request
+
+![bridgid](https://user-images.githubusercontent.com/6153182/33048688-3098920e-ce2a-11e7-9873-29cc04f36d49.png)
+
 
 # You do
 
