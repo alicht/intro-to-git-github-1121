@@ -107,8 +107,7 @@ Working with a partner, follow the example we just did and take turns: (Example 
 -  Leah  should accept this pull request and merge it into her GitHub repo
 -  Leah should pull the new changes Ruben made (via using the terminal)
 
-After you've each gone once stop.
-
+and vice versa.
 
 ## Pulling: Updating Your Local
 
