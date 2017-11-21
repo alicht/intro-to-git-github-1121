@@ -36,18 +36,18 @@ There are a lot of advantages to version control.
 ![Alt Text](https://media.giphy.com/media/3o7aTy3ePwrk5D3bHO/giphy.gif)
 
 
-Let's initalize a local repository.
+First, let's create a local repository.
 
--  make a directory `mkdir mean-girls` and lets then enter it `cd mean-girls`
+-  make a directory `mkdir mean-girls` and lets then cd into it `cd mean-girls`
 
-Before we put git to use let's create some items.
-let's go to our terminal and use the `touch` command to create `opening-scene.txt`.
+Before we put git to use let's create an item we can track.
+Let's go to our terminal and use the `touch` command to create `opening-scene.txt`.
 
 - we can use the `ls` command now and we see we have something in our directory.
 - we can check the status of this with git status` and we'll see our README is not committed
 
 We have an (empty) directory, now what we want to do is initialize it `git init`
-This will initialize a new git repository in our code. (.git explanation?)
+This will initialize a new git repository in our code. (.git explanation)
 
 
 - let's `git add <name-of-file>`
@@ -58,7 +58,9 @@ This will initialize a new git repository in our code. (.git explanation?)
  ![Alt Text](https://media.giphy.com/media/xT9KVF4zNt70nyNpi8/giphy.gif)
  
 
-Git tells us that it created a new version of our code. The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now we'll see that there is nothing to commit and no new changes. 
+Git tells us that it created a new version of our code. 
+
+The commit changed 1 file. With that commit made and no other changes to our files, if we ask Git what the status of our project is now we'll see that there is nothing to commit and no new changes. 
 
 
 ## Staging and Commiting
@@ -66,8 +68,8 @@ Git tells us that it created a new version of our code. The commit changed 1 fil
 There are 3 states that your file can reside in `modified`, 
 `staged`, and `committed`. These states map to the different sections of a Git project.
 
-A)  `modified` means that you have changed the file but have not committed it to
-your database yet.
+A)  `modified` means that you have changed the file in your working directory- but that's it (ie you have not committed it to
+your database yet).
 
 B)   `staged` means that you have marked a modified file in its current version
 to go into your next commit snapshot.
@@ -75,13 +77,12 @@ to go into your next commit snapshot.
 C)   `committed` means that the data is safely stored in your local database.
 
 
-When we add a file we are moving it from the working directory to the staging
-area.
+When we add a file we are moving it from the working directory to the staging area. Commiting it means we've moved it from our staging area to our local database.
 
 ![git-add-commit](https://user-images.githubusercontent.com/6153182/33028677-839cda1e-cde4-11e7-83c5-59adf22958d9.png)
 
 
-## Code Along: Let's add Gretchen
+# Code Along: Let's add Gretchen
 ![Alt Text](https://media.giphy.com/media/aDub09OOi8e4M/giphy.gif)
 
 
@@ -95,6 +96,7 @@ area.
   ```bash
   That is so fetch!  
   ```
+### and then...
 
 1.  Save the file.
 
@@ -112,41 +114,40 @@ happen?
 ## Brief Lab: Add Regina George
 ![Alt Text](https://media.giphy.com/media/6BQeMAeLHCIhi/giphy.gif)
 
-(she's not very nice :/)
+(she's not very nice :confused:)
 
-1.  Opening the file with Sublime and copy in the following lines:
+1.  Let's open Sublime and create a `regina.txt` file inside write the following lines:
 
   ```bash
   Is butter a carb? These sweatpants are all that fits me right now. 
   ```
+and then... let's commit it!
 
+Now that we've made our commit, let's see what happens when we type `git
+log`... we see our previous commit! This typically shows all of our previous
+commits, but since we just have one, that's all we see. 
 
-Now that we've made our first commit, let's see what happens when we type `git
-log`... We see our previous commit! This typically shows all of our previous
-commits, but since we just have one, that's all we see. Feel free to play around
-with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
+Feel free to play aroundwith options for `git log`, like `--oneline`, `--name-status`, and `--graph`
 for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 
 
 
-## Unstaging: Wait can Regina actually join us? She's wearing sweatpants on a Wed... 
+## Unstaging: But wait... can Regina actually join us? She's wearing sweatpants on a Monday so... 
 
 ![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
 
-Uh oh... we have to delete Regina 
+###### Uh oh... we have to delete Regina 
 
 Unstage the file with `git reset <"filename">`
 
 OR Delete the last thing we wrote in our `mean-girls` directory.
 
-Let's go back to our Mean Girls directory
-
-we'll go to our terminal and remove it `rm -rf regina.txt` 
+Let's go back to our Mean Girls directory, and in our terminal we can remove it using `rm -rf regina.txt` 
 
 
 
-What's the difference? What is actually happening with the `rm` command?
+
 
 
 
@@ -157,7 +158,7 @@ What's the difference? What is actually happening with the `rm` command?
 -   [ ] `git add <file-name>`
 -   [ ] `git status` (to confirm modified files have been staged)
 -   [ ] `git commit`
--   [ ] `git push origin <branchname>`
+
 
 ## Git Best Practices
 
@@ -166,7 +167,7 @@ What's the difference? What is actually happening with the `rm` command?
 -   ALWAYS use a commit message `git commit -m "an example commit message"`
 -   ALWAYS use `git status` before any other command
 -   NO commit is too small
--   NEVER nest repositories
+
 
 ## Additional Resources
 
