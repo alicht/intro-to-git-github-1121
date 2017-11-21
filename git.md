@@ -139,7 +139,7 @@ for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 ![Alt Text](https://media.giphy.com/media/xT9KVuimKtly3zoJ0Y/giphy.gif)
 
-###### Uh oh... we have to delete Regina 
+### Uh oh... we have to delete Regina 
 
 Unstage the file with `git reset <"filename">`
 
