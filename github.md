@@ -21,11 +21,11 @@ In our previous lesson, we learned about and created a local repository. But wha
 
 ## Remotes
 
+![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
+
 A remote repository is just another repository that you are connected to and
 (depending on your permission) you can push code up to it and pull code down from
 it.
-
-![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
 
 ## Introducing GitHub!
 
