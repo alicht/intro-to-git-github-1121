@@ -13,7 +13,7 @@
 
 -   WDI Fundamentals
 
-## Why Git
+## Why Git?
 Git is a form of Version Control. 
 Version Control is the process of storing multiple versions of a single project, allowing each version to be recalled at a later date. (Ex: backing up your iPhone before you get it repaired).
 
