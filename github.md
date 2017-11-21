@@ -73,7 +73,7 @@ Push this to GitHub.
 #  Add Tina Fey (last Mean Girls reference, I promise :grimacing: )
 Tina Fey is here to teach us about forking, cloning, and pull requests! 
 
-(we have a You Do coming up guys- so pay attention! :)
+##### (we have a You Do coming up guys- so pay attention! :)
 
 
 ![Alt Text](https://media.giphy.com/media/3o7aTLkyh3yAG6DEuQ/giphy.gif)
