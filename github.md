@@ -30,7 +30,7 @@ it.
 ## Introducing GitHub!
 
 So we have a local repository, but now let's use GitHub to create our remote repository. Why use
-GitHub? So we can backup our code online. It also has an stellargraphical interface and useful collaboration features.
+GitHub? So we can backup our code online. It also has an stellar graphical interface and useful collaboration features.
 
 If you work by yourself, you don't really need remotes. However, we want to work with others! Thus let's talk about remotes.
 
