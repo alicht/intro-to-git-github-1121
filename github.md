@@ -64,7 +64,7 @@ Now create your own GitHub repository and `push` your master branch.
 
 ![mg1](https://user-images.githubusercontent.com/6153182/33035113-09f033dc-cdf8-11e7-8f7a-24fda5b84a2c.png)
 
--  since we already have a repo let's follow step 2
+-  since we already have a repo we'll follow step 2
 -  go to terminal 
 -  lets add the URL we copied to 
 -  `git remote add`
@@ -76,11 +76,13 @@ Now create your own GitHub repository and `push` your master branch.
 
 ## Lab: Lets add another Mean Girl... and this time we can push it to GitHub!
 
-![Alt Text](https://media.giphy.com/media/xT9KVuBS9UBLUciObu/giphy.gif)
+![Alt Text](https://media.giphy.com/media/xT9KVtQBk8cGFcZH4A/giphy.gif)
 
-The last time we saw the Mean Girls, Regina was kicked out. Let's now add Cady Heron to take place: 
+The last time we saw the Mean Girls, Regina was kicked out. Let's now add Karen to take her place: 
 
-create a cady-heron.txt file and add "Hey I'm Cady, I'm in charge now" #boss 
+create a `karen.txt` file and add:
+
+`"There's a 30% chance that it's already raining"`  
 
 
 Push this to GitHub.
