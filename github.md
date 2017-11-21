@@ -19,9 +19,6 @@
 ## Overview
 
 ## to add
--  fork
--  clone
--  pull request
 -  git fetch upstream?
 -  merge
 -  branching?
@@ -29,16 +26,7 @@
 Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
 to manage our project.
 
-## Remote Repository-  Introducing GitHub!
-
-
-![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
-
-So we have a local repository, watch as I create a GitHub repository. Why use
-GitHub? So we can backup our code online. It also has an stellar
-graphical interface and useful collaboration features.
-
-GitHub is just another git repository in the cloud. If you work by yourself, you don't need remotes. However, we want to work with others! Thus let's talk about remotes.
+In our previous lesson, we learned about and created a local repository. But what about a remote repository?
 
 ## Remotes
 
@@ -48,15 +36,21 @@ it.
 
 The command for adding a new remote is `git remote add <remote-name> <remote-URL>`. You may choose any name for the remote-name but it should be sensible. The remote URL can be copied by clicking the green `Clone or Download` button that is on every GitHub repo, then selecting `SSH` and copying it.
 
-Watch as I add a remote from one of your repositories then update my local with
-the changes.
+![Alt Text](https://media.giphy.com/media/3orifhOeMIcO6YE0fu/giphy.gif)
+
+## Introducing GitHub!
+
+So we have a local repository, watch as I create a GitHub repository. Why use
+GitHub? So we can backup our code online. It also has an stellar
+graphical interface and useful collaboration features.
+
+GitHub is just another git repository in the cloud. If you work by yourself, you don't need remotes. However, we want to work with others! Thus let's talk about remotes.
 
 
 ## Let's create a remote repository on GitHub
 
--  let's go to GitHub, click the heavy_plus_sign in the menubar and select New repository. 
--  let's Enter a name for your repository in the Repository name field. let's enter the same name we did for our local version `mean-girls` 
--  After creating the repo, you should see a "Quick setup" page. Click the "Copy to clipboard" symbol next to the repo URL (pictured) to copy the URL. (We'll use this in the next section.)
+-  let's go to GitHub, click the BIG plus sign in the menubar and select New repository. 
+-  let's enter a name for our repository in the repository name field. let's enter the same name we did for our local version `mean-girls` 
 
 Now create your own GitHub repository and `push` your master branch.
 
@@ -88,7 +82,11 @@ create a `karen.txt` file and add:
 Push this to GitHub.
 
 
-## Demo: Adding to Your Story
+# Demo: Adding Tina Fey to our story (last Mean Girls reference, I promise :grimacing: )
+Tina Fey is here to teach us about forking, cloning, and pull requests! 
+
+
+![Alt Text](https://media.giphy.com/media/3o7aTLkyh3yAG6DEuQ/giphy.gif)
 
 -  `fork`
 -  `clone`
