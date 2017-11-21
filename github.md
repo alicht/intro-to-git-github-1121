@@ -9,15 +9,13 @@
 -   Synchronize local and remote repositories.
 -   Fork a remote repository to get your own remote copy.
 -   Clone a remote repository to get your own local copy.
--   Collaborate over time and space with other developers on the same project.
+-   Collaborate with other developers on the same project.
+-   Create a new branch, pull requests, and merging
+-   Don't be like the characters from "Mean Girls" 
 
 
 ## Overview
 
-## to add
--  git fetch upstream?
--  merge
--  branching?
 
 
 In our previous lesson, we learned about and created a local repository. But what about a remote repository?
@@ -121,14 +119,21 @@ by pulling the changes that we merged.  The command to do this is:
 
 `git pull origin master`
 
-This gets the latest copy of our code off of the master branch of our original
+This gets the latest copy of our code from the master branch of our original
 repository.
+
+## Be the Opposite of "Mean Girls"
+
+![Alt Text](https://media.giphy.com/media/xT5LMXR7iA0mSSxOBG/giphy.gif)
+
+We're all in this together #narwahls :whale:
+
 
 
 
 
 ## Additional Resources
 
--   [Git Commands](command-reference.md)
+-   [Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 -   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
 -   [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
