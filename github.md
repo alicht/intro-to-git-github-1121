@@ -17,7 +17,7 @@
 
 
 
-In our previous lesson, we learned about and created a local repository. But what about a remote repository?
+In our previous lesson, we learned about git and created a local repository. But what about a remote repository?
 
 ## Remotes
 
