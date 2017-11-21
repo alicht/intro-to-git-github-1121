@@ -122,7 +122,7 @@ by pulling the changes that we merged.  The command to do this is:
 This gets the latest copy of our code from the master branch of our original
 repository.
 
-## Be the Opposite of "Mean Girls"
+# Be the Opposite of "Mean Girls"
 
 ![Alt Text](https://media.giphy.com/media/xT5LMXR7iA0mSSxOBG/giphy.gif)
 
