@@ -10,7 +10,7 @@
 -   Clone a remote repository to get your own local copy.
 -   Collaborate with other developers on the same project.
 -   Create a new branch, pull requests, and merging
--   Don't be like the characters from "Mean Girls" 
+-   Don't be like the characters from "Mean Girls" :no_good:
 
 
 ## Overview
