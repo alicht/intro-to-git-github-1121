@@ -88,7 +88,7 @@ area.
 
 1.  Create a directory called `mean-girls`. 
 
-1.  Inside of the `mean-girls` directory create a file called `first-day.txt`.
+1.  Inside of the `mean-girls` directory create a file called `gretchen.txt`.
 
 1.  Opening the file with Sublime and copy in the following lines:
 
@@ -101,7 +101,7 @@ area.
 1.  Inside of the `mean-girls` directory type `git status`. Did anything
 happen?
 
-1.  Again, inside the `<your-name>s-mean-girls` directory type `git init`.
+1.  Again, inside the `mean-girls` directory type `git init`.
 
 1.  Type `git status` again. Did anything happen this time?
 
@@ -138,11 +138,11 @@ Uh oh... we have to delete Regina
 
 Unstage the file with `git reset <"filename">`
 
-OR Delete the last thing we wrote in `mean-girls.md`.
+OR Delete the last thing we wrote in our `mean-girls` directory.
 
 Let's go back to our Mean Girls directory
 
-we'll go to our terminal and remove it rm -rf Regina.txt
+we'll go to our terminal and remove it `rm -rf regina.txt` 
 
 
 
@@ -153,9 +153,8 @@ What's the difference? What is actually happening with the `rm` command?
 ## Git Workflow Checklist
 
 -   [ ] `git status` to confirm clean working directory
--   [ ] confirm branch is correct
--   [ ] make changes to `file`
--   [ ] `git add 'file'`
+-   [ ] make changes to `<file-name>`
+-   [ ] `git add <file-name>`
 -   [ ] `git status` (to confirm modified files have been staged)
 -   [ ] `git commit`
 -   [ ] `git push origin <branchname>`
