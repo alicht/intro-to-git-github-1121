@@ -31,7 +31,7 @@ There are a lot of advantages to version control.
 
 
 
-## Let's Make a Local Repository... Mean Girls style :sunglasses: :v:
+## Let's put git to use... Mean Girls style :sunglasses: :v:
 
 ![Alt Text](https://media.giphy.com/media/3o7aTy3ePwrk5D3bHO/giphy.gif)
 
